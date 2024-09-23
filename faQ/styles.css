@@ -1,0 +1,26 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3eafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.faq-container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+}
+
+.faq-header {
+  font-size: 32px;
+  color: #2e1256;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
