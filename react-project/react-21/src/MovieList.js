@@ -12,6 +12,7 @@ export default function MovieList(props) {
   return (
     <div className="movie-list">
       <h2>{title}</h2>
+      <p>sara</p>
       <ul>{renderFarm()}</ul>
     </div>
   );
