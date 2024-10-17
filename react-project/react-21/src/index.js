@@ -1,22 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import reportWebVitals from "./reportWebVitals";
-import HomePage from "./Pages/HomePage";
-import AboutUs from "./Pages/AboutUs";
+import Router from "./Router";
 
-const routes = createBrowserRouter([
-  {
-    path: "/",
-    element: <HomePage></HomePage>,
-  },
-  {
-    path: "/about-us",
-    element: <AboutUs></AboutUs>,
-  },
-]);
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RouterProvider router={routes}></RouterProvider>);
+root.render(<Router></Router>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
